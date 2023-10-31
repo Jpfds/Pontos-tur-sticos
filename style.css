@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(to left, green,white,white,red )
+}
+header, main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+main{
+    flex-direction: column;
+}
+.content_container{
+    text-align: center;
+    width: 50%;
+}
+.content_container > p{
+    text-align: left;
+}
+.place_img{
+    width: 850px;
+    height: 425px;
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
